@@ -23,7 +23,7 @@ The pretrained checkpoints presented in the paper can be found on the [huggingfa
 You can run the example by using the following command:
 
 ```
-python run_glue.py \
+python run_frugalscore.py \
   --model_name_or_path moussaKam/frugalscore_tiny_bert-base_bert-score \
   --train_file examplefile.json --validation_file examplefile.json \
   --test_file examplefile.json \
