@@ -36,6 +36,6 @@ python run_frugalscore.py \
 
 Make sure you download the `datasets` package and the`transformars` package from source. 
 ```
-pip install datasets
+pip install git+https://github.com/huggingface/datasets
 pip install git+https://github.com/huggingface/transformers
 ```
