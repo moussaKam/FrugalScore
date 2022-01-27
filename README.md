@@ -7,18 +7,18 @@ The pretrained checkpoints presented in the paper can be found on the [huggingfa
 
 | FrugalScore                                        | Student     | Teacher        | Method     |
 |----------------------------------------------------|-------------|----------------|------------|
-| moussaKam/frugalscore_tiny_bert-base_bert-score    | BERT-tiny   | BERT-base      | BERTScore  |
-| moussaKam/frugalscore_small_bert-base_bert-score   | BERT-small  | BERT-base      | BERTScore  |
-| moussaKam/frugalscore_medium_bert-base_bert-score  | BERT-medium | BERT-base      | BERTScore  |
-| moussaKam/frugalscore_tiny_roberta_bert-score      | BERT-tiny   | RoBERTa        | BERTScore  |
-| moussaKam/frugalscore_small_roberta_bert-score     | BERT-small  | RoBERTa        | BERTScore  |
-| moussaKam/frugalscore_medium_roberta_bert-score    | BERT-medium | RoBERTa        | BERTScore  |
+| moussaKam/frugalscore_tiny_bert-base_bert-score    | BERT-tiny   | BERT-Base      | BERTScore  |
+| moussaKam/frugalscore_small_bert-base_bert-score   | BERT-small  | BERT-Base      | BERTScore  |
+| moussaKam/frugalscore_medium_bert-base_bert-score  | BERT-medium | BERT-Base      | BERTScore  |
+| moussaKam/frugalscore_tiny_roberta_bert-score      | BERT-tiny   | RoBERTa-Large  | BERTScore  |
+| moussaKam/frugalscore_small_roberta_bert-score     | BERT-small  | RoBERTa-Large  | BERTScore  |
+| moussaKam/frugalscore_medium_roberta_bert-score    | BERT-medium | RoBERTa-Large  | BERTScore  |
 | moussaKam/frugalscore_tiny_deberta_bert-score      | BERT-tiny   | DeBERTa-XLarge | BERTScore  |
 | moussaKam/frugalscore_small_deberta_bert-score     | BERT-small  | DeBERTa-XLarge | BERTScore  |
 | moussaKam/frugalscore_medium_deberta_bert-score    | BERT-medium | DeBERTa-XLarge | BERTScore  |
-| moussaKam/frugalscore_tiny_bert-base_mover-score   | BERT-tiny   | BERT-base      | MoverScore |
-| moussaKam/frugalscore_small_bert-base_mover-score  | BERT-small  | BERT-base      | MoverScore |
-| moussaKam/frugalscore_medium_bert-base_mover-score | BERT-medium | BERT-base      | MoverScore |
+| moussaKam/frugalscore_tiny_bert-base_mover-score   | BERT-tiny   | BERT-Base      | MoverScore |
+| moussaKam/frugalscore_small_bert-base_mover-score  | BERT-small  | BERT-Base      | MoverScore |
+| moussaKam/frugalscore_medium_bert-base_mover-score | BERT-medium | BERT-Base      | MoverScore |
 
 You can run the example by using the following command:
 
