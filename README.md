@@ -20,6 +20,18 @@ The pretrained checkpoints presented in the paper can be found on the [huggingfa
 | moussaKam/frugalscore_small_bert-base_mover-score  | BERT-small  | BERT-Base      | MoverScore |
 | moussaKam/frugalscore_medium_bert-base_mover-score | BERT-medium | BERT-Base      | MoverScore |
 
+# Experiments on [BEAMetrics](https://github.com/ThomasScialom/BEAMetrics) benchmark
+We evaluate our three models `frugalscore_(tiny/small/medium)_bert-base_bert-score` different datasets includeded in `BEAMetrics` benchmark. The results are comparable to the second block of Table 2 reported in the [paper](https://arxiv.org/pdf/2110.09147.pdf).
+
+|               | WMT  | Web  | Asv  | MUS  | Fli  | ReaSum | SumE | OpQA | OkVQA |
+| ------------- | :--: | :--: | :--: | :--: | :--: | :----: | :--: | :--: | :---: |
+| BERTScore_f1  | 20.5 | 60.8 | 61.4 | 37.5 | 33.5 | 39.3   | 12.4 | 12.4 | 6.2   |
+| Frugal_tiny   | 16.6 | 71.5 | 44.0 | 52.3 | 49.8 | 46.4   | 18.7 | 29.2 | 20.1  |
+| Frugal_small  | 18.4 | 72.1 | 52.9 | 48.2 | 54.1 | 48.9   | 15.2 | 28.2 | 14.3  |
+| Frugal_medium | 19.7 | 73.4 | 58.4 | 45.9 | 54.2 | 49.4   | 16.4 | 24.7 | 16.1  |
+
+Note that `bert-base-multilingual-cased` is used to generate BERTScore. 
+
 You can run the example by using the following command:
 
 ```
