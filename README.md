@@ -36,7 +36,7 @@ To use the metric:
 
 ```python
 from datasets import load_metric
-metric = load_metric('/datadisks/datadisk1/FrugalScore/frugalscore.py')
+metric = load_metric('frugalscore.py')
 
 references = ['hello world', 'this is an example']
 predictions = ['hello there', 'this is a good example']
