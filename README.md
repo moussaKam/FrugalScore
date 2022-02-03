@@ -32,22 +32,23 @@ We evaluate our three models `frugalscore_(tiny/small/medium)_bert-base_bert-sco
 
 Note that `bert-base-multilingual-cased` is used to generate BERTScore. 
 
-You can run the example by using the following command:
+To use the metric:
 
-```
-python run_frugalscore.py \
-  --model_name_or_path moussaKam/frugalscore_tiny_bert-base_bert-score \
-  --train_file examplefile.json --validation_file examplefile.json \
-  --test_file examplefile.json \
-  --output_dir predictions \
-  --max_seq_length 512 \
-  --per_device_eval_batch_size 32 \
-  --overwrite_output_dir \
-  --do_predict
-```
+```python
+from datasets import load_metric
+metric = load_metric('/datadisks/datadisk1/FrugalScore/frugalscore.py')
 
-Make sure you download the `datasets` package and the`transformars` package from source. 
+references = ['hello world', 'this is an example']
+predictions = ['hello there', 'this is a good example']
+
+scores = metric.compute(references=references, predictions=predictions)
+
+print(scores)
 ```
-pip install git+https://github.com/huggingface/datasets
-pip install git+https://github.com/huggingface/transformers
+`{'scores': [0.631, 0.864]}`
+
+Make sure you have the latest verions of the `datasets` and `transformers` installed:
+```
+pip install --upgrade datasets
+pip install --upgrade transformers
 ```
