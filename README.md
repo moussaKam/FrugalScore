@@ -1,4 +1,8 @@
 # FrugalScore
+
+<p>
+<a href="https://console.tiyaro.ai/explore/huggingface-moussaKam-frugalscore_tiny_bert-base_bert-score-1"> <img src="https://tiyaro-public-docs.s3.us-west-2.amazonaws.com/assets/try_on_tiyaro_badge.svg"></a>
+</p>
 FrugalScore is an approach to learn a fixed, low cost version of any expensive NLG metric, while retaining most of its original performance
 
 Paper: https://arxiv.org/abs/2110.08559?context=cs
